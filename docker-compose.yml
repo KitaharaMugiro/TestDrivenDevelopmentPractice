@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    container_name: typescript-practice
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8080"
+    tty: true
+    command: /bin/ash
