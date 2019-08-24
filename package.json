@@ -1,24 +1,25 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hello! No description here!",
   "scripts": {
     "build": "docker-compose up --build -d",
     "start": "docker exec -it typescript-practice sh",
-    "test": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/**/*.ts\""
+    "test": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/**/*.ts\"",
+    "test:sample": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/Sample/*.ts\"",
+    "test:fizzbuzz": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/FizzBuzz/*.ts\"",
+    "test:wordcounter": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/WordCounter/*.ts\"",
+    "test:vendingmachine": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/VendingMachine/*.ts\"",
+    "test:rockpaperscissor": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/RockPaperScissor/*.ts\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "class-transformer": "^0.2.3",
-    "express": "^4.17.1",
+    "sinon": "^7.4.1",
     "ts-node": "^8.3.0",
-    "typescript": "^3.4.5"
-  },
-  "devDependencies": {
+    "typescript": "^3.4.5",
     "@types/chai": "^4.1.7",
-    "@types/express": "^4.17.0",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.0.0",
     "chai": "^4.2.0"
