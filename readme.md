@@ -1,4 +1,4 @@
-# TypeScript Node.js
+# テスト駆動開発をしよう
 
 ## スライド資料
 [Google Slide](https://docs.google.com/presentation/d/1J9T74p9ICDHaHnq6hox37qt2ydaFUu4_iBlOH0RvtMg/edit?usp=sharing)
