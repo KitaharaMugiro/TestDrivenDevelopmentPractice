@@ -1,2 +1,1 @@
-export class WordCounter {
-}
+export class WordCounter {}

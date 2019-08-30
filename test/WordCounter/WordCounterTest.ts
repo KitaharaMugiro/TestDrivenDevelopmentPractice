@@ -1,6 +1,4 @@
-import * as chai from 'chai';
-import { WordCounter } from '../../src/WordCounter/WordCounter';
+import * as chai from "chai";
+import { WordCounter } from "../../src/WordCounter/WordCounter";
 
-
-describe('WordCounterのテスト',  () => {
-})
+describe("WordCounterのテスト", () => {});

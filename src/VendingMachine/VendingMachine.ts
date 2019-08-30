@@ -1,6 +1,8 @@
 import { Drink } from "./Drink";
-import { NoMoneyError, NoStockError, NoAvailableCoinError } from "./NoStockError";
+import {
+  NoMoneyError,
+  NoStockError,
+  NoAvailableCoinError
+} from "./NoStockError";
 
-export class VendingMachine {
-
-}
+export class VendingMachine {}
