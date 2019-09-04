@@ -10,18 +10,20 @@
     "test:fizzbuzz": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/FizzBuzz/*.ts\"",
     "test:wordcounter": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/WordCounter/*.ts\"",
     "test:vendingmachine": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/VendingMachine/*.ts\"",
-    "test:rockpaperscissor": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/RockPaperScissor/*.ts\""
+    "test:rockpaperscissor": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/RockPaperScissor/*.ts\"",
+    "test:mock": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register \"test/Mock/*.ts\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sinon": "^7.4.1",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.4.5",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.0.0",
-    "chai": "^4.2.0"
+    "@types/sinon": "^7.0.13",
+    "chai": "^4.2.0",
+    "sinon": "^7.4.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.4.5"
   }
 }
