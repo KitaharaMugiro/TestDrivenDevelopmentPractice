@@ -1,3 +1,3 @@
-export function fizzBuzz(input : number) {
-
+export function fizzBuzz(input: number): string {
+  return "";
 }
